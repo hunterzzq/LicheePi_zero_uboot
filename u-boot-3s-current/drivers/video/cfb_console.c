@@ -72,6 +72,11 @@
 #include <video.h>
 #include <linux/compiler.h>
 
+
+//kk
+#define CONFIG_HIDE_LOGO_VERSION
+#define	CONFIG_VIDEO_BMP_LOGO
+
 /*
  * Defines for the CT69000 driver
  */

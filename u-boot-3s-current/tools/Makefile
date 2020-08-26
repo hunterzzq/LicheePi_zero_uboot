@@ -227,6 +227,9 @@ endif
 endif
 
 endif # !LOGO_BMP
+#kk
+#LOGO_BMP= $(srctree)/$(src)/logos/logokk256.bmp
+LOGO_BMP= $(srctree)/$(src)/logos/logokk256_2.bmp
 
 # Generated gziped GPL-2.0 license text
 LICENSE_H = $(objtree)/include/license.h
