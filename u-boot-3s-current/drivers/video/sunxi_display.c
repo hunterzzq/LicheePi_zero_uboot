@@ -1392,7 +1392,8 @@ static void sunxi_mode_set(const struct ctfb_res_modes *mode,
 #ifdef CONFIG_VIDEO_LCD_SSD2828
 		sunxi_ssd2828_init(mode);
 #endif
-		sunxi_lcdc_backlight_enable();
+//kk uboot阶段关掉背光，可以保证uboot开机阶段没有白光一闪的情况
+//kk del		sunxi_lcdc_backlight_enable();
 		break;
 	case sunxi_monitor_vga:
 #ifdef CONFIG_VIDEO_VGA
